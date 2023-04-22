@@ -1,0 +1,11 @@
+.discover {
+  padding: 0.5rem 1rem; /* 改变Discover 菜单的纵向间隔*/
+  transition: all 0.3s ease-in;
+  z-index: 22222222;
+}
+
+.discover:hover {
+  background-color: var(--icons-color);
+  color: var(--shadow-dark-color);
+  border-radius: 0.3rem; /*当你的鼠标放在Discover 菜单栏下的cleection 或者search之类的功能时会显示一个shadow, 用来改变shadow的形状*/
+}
